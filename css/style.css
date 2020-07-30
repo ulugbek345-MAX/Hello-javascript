@@ -44,3 +44,10 @@ body, h1, h2, h3, ul, p{
     width:70%;
     margin: auto;
 }
+#banner{
+    height: 60vh;
+    background-image: url(../images/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 500;
+}
