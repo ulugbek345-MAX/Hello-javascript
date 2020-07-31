@@ -124,43 +124,20 @@ body, h1, h2, h3, ul, p{
     margin-left:15px;
 }
 /* bulimalar */
-#bulimlar{
-    display:block;
-    margin:0;
-    padding: 0;
-    min-width: 1200px;
-    background: #fff;
-    color:black;
-    
-}
-#bulimlar .container{
-    display:inline-block;
-    margin:0;
-    padding:0;
-    width:100%;
-    height:auto;
-}
+/* end bulimlar */
 
-#bulimlar .container .inleni-continer{
-    display: inline-block;
-    width:100%;
-    margin:0;
-    padding:0;
+/* start coment */
+.comment{
+display: block;
+margin:0;
+padding:0;
+background: rgb(12, 9, 9);
 }
-#bulimlar .container .inleni-continer .card{
-     display: inline-block;
-    width:22%;
-    margin:20px;
-    padding:10px 40px;
-    box-sizing: border-box;
-    justify-content:center;
+.comment .form{
+    display: contents;
+    content: '';
+    position: fixed;
+    
+    color:aqua;
 }
-#bulimlar .container .inleni-continer .card h1{
-    line-height: 40px;
-    color:red;
-}
-#bulimlar .container .inleni-continer .card p{
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 600;
-}
+/* end coment */
